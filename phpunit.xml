@@ -19,6 +19,7 @@
         </whitelist>
     </filter>
     <php>
+        <server name="APP_KEY" value="is-exactly-thirty-one-characters"/>
         <server name="APP_ENV" value="testing"/>
         <server name="BCRYPT_ROUNDS" value="4"/>
         <server name="CACHE_DRIVER" value="array"/>
